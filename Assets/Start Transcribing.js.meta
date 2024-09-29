@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/aae4a6ad-7439-44e4-95c6-2b68fc6f6317>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0e678c32-da02-4272-a2dd-6e7d7625d927
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0e678c32-da02-4272-a2dd-6e7d7625d927
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 67db7901-9d6c-49e9-9eee-0e4677a3c762
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1a9795dd-6eab-4a7b-8cab-a597e694f7a9>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/67db7901-9d6c-49e9-9eee-0e4677a3c762>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera_1: false
+    camera_2: false
+    image: false
+    model: false
+    refScript: false
+    rmm: false
+    rsm: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - model: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      Camera_1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera_1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera_2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      refScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      rsm: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+      rmm: !<reference.RemoteMediaModule> 00000000-0000-0000-0000-000000000000
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      testTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

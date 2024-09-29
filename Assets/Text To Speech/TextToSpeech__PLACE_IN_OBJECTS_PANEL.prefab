@@ -1,0 +1,110 @@
+- !<ObjectPrefab/8639f49c-143a-412c-9635-06c6f32eabe6>
+  PackagePath: ""
+  objects:
+    - !<own> 335e24f3-f0e0-42ee-a1d9-476103747e24
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/00db1856-d288-4133-adad-60f65a0bb9d1>
+  PrefabRemaps:
+    []
+  Name: TTSController
+  Enabled: true
+  ScriptAsset: !<reference> 2ac6b5aa-54c8-4f9a-825c-a9f2f66d8490
+  ScriptInputsDefault:
+    previewTTS: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tts: !<reference.TextToSpeechModule> fb2a6ff6-31dd-4d1c-be56-14fde9abe340
+      audio: !<reference.AudioComponent> 67bee517-f674-49b6-8066-428fff7c9b1a
+      autoStyleSelector: true
+      voiceName: Sasha
+      voiceStyleSasha: 1
+      voiceStyleSam: 1
+      voicePace: !<float> 1.000000
+      previewTTS: false
+      previewText: Show me you love cats without telling me you love cats
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/06d27e6e-3168-4428-aa57-f63b5c31b625>
+  PrefabRemaps:
+    []
+  Name: "TTSExample[DELETE_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> 32d321d5-8bae-416a-9e0a-abd205e529e1
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      text: Provide any text input
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/21e43cc5-ab2d-42db-a2a4-016b6ff3617f>
+  PrefabRemaps:
+    []
+  Name: "TTS Example [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 06d27e6e-3168-4428-aa57-f63b5c31b625
+- !<SceneObject/335e24f3-f0e0-42ee-a1d9-476103747e24>
+  PrefabRemaps:
+    []
+  Name: TextToSpeech__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 80df9005-bcab-4787-bf91-2676f28d3988
+    - !<own> 21e43cc5-ab2d-42db-a2a4-016b6ff3617f
+  Components:
+    []
+- !<AudioComponent/67bee517-f674-49b6-8066-428fff7c9b1a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: true
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/80df9005-bcab-4787-bf91-2676f28d3988>
+  PrefabRemaps:
+    []
+  Name: "TTS Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 00db1856-d288-4133-adad-60f65a0bb9d1
+    - !<own> 67bee517-f674-49b6-8066-428fff7c9b1a

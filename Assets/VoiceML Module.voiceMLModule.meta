@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/d93c49fb-a3fa-47e5-b09f-8009f349525e>
+  ImportedAssetIds:
+    VoiceMLModule: !<reference> 80232d8f-5187-4540-bf8c-d0e06af9245b
+  ImporterName: VoiceMLModuleImporter
+  PrimaryAsset: !<reference> 80232d8f-5187-4540-bf8c-d0e06af9245b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d0a6dc98-73cd-4e6d-bd3f-d795773846d5>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

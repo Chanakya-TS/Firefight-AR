@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/45c4d777-5346-4df4-b311-e9c9f34e4ae7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 09699bc7-bc82-4fb8-8993-acdfa37811a3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 09699bc7-bc82-4fb8-8993-acdfa37811a3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> aa4ef58d-9249-47db-b41c-0a6e211c0e73
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/10f33e83-367b-423e-bda1-984bc2602c30>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/aa4ef58d-9249-47db-b41c-0a6e211c0e73>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    image: false
+    rmm: false
+    rsm: false
+    testTexture: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - rsm: !<reference.RemoteServiceModule> 169decb7-717f-4900-b72d-103ee11ab19f
+      rmm: !<reference.RemoteMediaModule> 7414738f-669e-4300-be61-2dafa6a8a4be
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      jsScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      videoObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      testTexture: !<RequiredType.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
